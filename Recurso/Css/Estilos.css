@@ -1,0 +1,38 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: rgba(0,0,0,0.7)url(../img/travel.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: white;
+}
+
+label {
+    color: white;
+}
+
+.login {
+    width: 500px;
+    height: 700px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -42%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.imgLogin {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    left: calc(50% - 50px);
+}
